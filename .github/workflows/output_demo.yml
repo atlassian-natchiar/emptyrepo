@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     
     outputs:
-      output1: ${{steps.step1.output.test}}
-      output2: ${{steps.step2.output.test}}
+      output1: "hello"
+      output2: "world"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
