@@ -22,7 +22,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - id: step1
-        run: echo "::set-ouput name=test::hello"
+        run: echo "::set-output name=test::hello"
       - id: step2
         run: echo "::set-output name=test::world"
   job2:
