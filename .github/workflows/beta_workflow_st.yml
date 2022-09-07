@@ -1,4 +1,4 @@
-name: Release
+name: ST Beta Release workflow
 
 on: 
     workflow_dispatch:
