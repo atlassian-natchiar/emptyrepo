@@ -1,4 +1,4 @@
-name: Release
+name: ST Release Workflow Replica
 
 on: 
     workflow_dispatch:
