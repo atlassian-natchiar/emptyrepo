@@ -28,7 +28,7 @@ jobs:
         run: echo "::set-output name=test::world1"
       - id: step3
         run: |
-          tagvar=test12345
+          $tagvar="test12345"
           echo "::set-output name=tagname::$tagvar"
   job2:
     runs-on: windows-latest
