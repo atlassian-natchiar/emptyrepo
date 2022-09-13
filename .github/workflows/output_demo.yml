@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "build"
   job1:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     outputs:
       output1: ${{ steps.step1.outputs.test}}
@@ -31,7 +31,7 @@ jobs:
           tagvar=test12345
           echo "::set-output name=tagname::$tagvar"
   job2:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: job1
     steps: 
       - run: |
